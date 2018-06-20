@@ -1,5 +1,6 @@
 var arrAllQuestions = [
 		objQuestion = {
+			id: 0,
 			question: "Who was the captain of the <em>U.S.S. Enterprise</em> prior to Kirk taking command?",
 			distractor1: "Robert April",
 			distractor2: "Christopher Pike",
@@ -10,6 +11,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Captain Christopher Pike"
 		},
 		objQuestion = {
+			id: 1,
 			question: "Who is the genetically engineered 'superman' the crew of the <em>U.S.S. Enterprise</em> discovered in the episode <em>Space Seed</em>?",
 			distractor1: "Clark Kent",
 			distractor2: "Trelane",
@@ -20,6 +22,7 @@ var arrAllQuestions = [
 			questionPicAlt: "KHAAAAAANNNNN!!!"
 		},
 		objQuestion = {
+			id: 2,
 			question: "What was the name of the silicon-based life form encountered by the miners on Janus VI?",
 			distractor1: "Excalibian",
 			distractor2: "Melkotian",
@@ -30,6 +33,7 @@ var arrAllQuestions = [
 			questionPicAlt: "the Horta"
 		},
 		objQuestion = {
+			id: 3,
 			question: "What is the name of the irresistible mating urge Vulcans experience every seven years?",
 			distractor1: "<em>Kolinahr</em>",
 			distractor2: "<em>Plak-tow</em>",
@@ -40,6 +44,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Spock deep in the throws of Pon Farr"
 		},
 		objQuestion = {
+			id: 4,
 			question: "What is the name of Harry Mudd's shrewish wife?",
 			distractor1: "Ruth",
 			distractor2: "Janice",
@@ -50,6 +55,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Harry Mudd's wife Stella"
 		},
 		objQuestion = {
+			id: 5,
 			question: "What was the name of Spock's father?",
 			distractor1: "Stonn",
 			distractor2: "Sarek",
@@ -60,6 +66,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Spock's father Sarek"
 		},
 		objQuestion = {
+			id: 6,
 			question: "Who was the unscrupulous entrepreneur who sold tribbles?",
 			distractor1: "Harry Mudd",
 			distractor2: "Cyrano Jones",
@@ -70,9 +77,10 @@ var arrAllQuestions = [
 			questionPicAlt: "Cyrano Jones"
 		},
 		objQuestion = {
+			id: 7,
 			question: "What was the name of the card game Kirk 'taught' the Iotians?",
 			distractor1: "Kronk",
-			distractor2: "Shraik",
+			distractor2: "Sabacc",
 			distractor3: "Fizzbin",
 			distractor4: "Supernova",
 			correctAnswer: "Fizzbin",
@@ -80,6 +88,7 @@ var arrAllQuestions = [
 			questionPicAlt: "the fake card game Fizzbin"
 		},
 		objQuestion = {
+			id: 8,
 			question: "Who designed the computers on board the <em>U.S.S. Enterprise</em>?",
 			distractor1: "Dr. Elizabeth Dehner",
 			distractor2: "Dr. M'Benga",
@@ -90,6 +99,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Dr. Richard Daystrom"
 		},
 		objQuestion = {
+			id: 9,
 			question: "What does IDIC stand for?",
 			distractor1: "Internal Deliberations end Intrusive Conflicts",
 			distractor2: "Infinite Diversity in Infinite Combinations",
@@ -100,6 +110,7 @@ var arrAllQuestions = [
 			questionPicAlt: "the IDIC symbol"
 		},
 		objQuestion = {
+			id: 10,
 			question: "What race of beings had ships that could create a web of energy to trap other vessels?",
 			distractor1: "Elasians",
 			distractor2: "Tholians",
@@ -110,6 +121,7 @@ var arrAllQuestions = [
 			questionPicAlt: "The Tholians trapping the Enterprise in an energy web"
 		},
 		objQuestion = {
+			id: 11,
 			question: "Which episode featured the firsts interracial kiss on American network television?",
 			distractor1: "<em>Wink of an Eye</em>",
 			distractor2: "<em>Plato's Stepchildren</em>",
@@ -120,6 +132,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Uhura and Kirk from Plato's Stepchildren"
 		},
 		objQuestion = {
+			id: 12,
 			question: "What was the name of the last episode that aired of the original series?",
 			distractor1: "<em>All Our Yesterdays</em>",
 			distractor2: "<em>The Savage Curtain</em>",
@@ -130,6 +143,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Turnabout Intruder"
 		},
 		objQuestion = {
+			id: 13,
 			question: "More famous for playing Lurch from <em>The Addams Family</em>, whom did actor Ted Cassidy play in the episode <em>What Are Little Girls Made Of?</em>?",
 			distractor1: "Dr. Carter",
 			distractor2: "Dr. Korby",
@@ -140,6 +154,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Ruk"
 		},
 		objQuestion = {
+			id: 14,
 			question: "What episode first showed Spock performing a Vulcan mind-meld?",
 			distractor1: "<em>Miri</em>",
 			distractor2: "<em>Conscience of the King</em>",
@@ -150,6 +165,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Spock performing the Vulcan Mind Meld"
 		},
 		objQuestion = {
+			id: 15,
 			question: "Actor William Campbell portrayed both Trelane from <em>The Squire of Gothos</em> and which Klingon captain?",
 			distractor1: "Kor",
 			distractor2: "Koloth",
@@ -160,6 +176,7 @@ var arrAllQuestions = [
 			questionPicAlt: "William Campbell as Klingon Captain Koloth"
 		},
 		objQuestion = {
+			id: 16,
 			question: "Which actress &mdash; famous for her role in the nighttime soap opera <em>Dynasty</em> &mdash; played Kirk's lover in <em>The City on the Edge of Forever</em>?",
 			distractor1: "Linda Evans",
 			distractor2: "Diahann Carroll",
@@ -170,6 +187,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Joan Collins as Edith Keeler"
 		},
 		objQuestion = {
+			id: 17,
 			question: "What legendary science fiction author wrote the episode <em>The City on the Edge of Forever</em>?",
 			distractor1: "Ray Bradbury",
 			distractor2: "Robert Bloch",
@@ -180,6 +198,7 @@ var arrAllQuestions = [
 			questionPicAlt: "City On The Edge Of Forever"
 		},
 		objQuestion = {
+			id: 18,
 			question: "What is the most common Vulcan greeting?",
 			distractor1: "'Peace be with you'",
 			distractor2: "'Live long and prosper'",
@@ -190,6 +209,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Spock giving the Vulcan salute"
 		},
 		objQuestion = {
+			id: 19,
 			question: "Whose fatal sacrifice gives Kirk the idea of how to destroy the planet-killer in <em>The Doomsday Machine</em>?",
 			distractor1: "Edith Keeler's",
 			distractor2: "Matt Decker's",
@@ -200,6 +220,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Commodore Matt Decker"
 		},
 		objQuestion = {
+			id: 20,
 			question: "Who was the drill thrall who taught Kirk to fight on Triseklion, as he taught her to love?",
 			distractor1: "Galt",
 			distractor2: "Lars",
@@ -210,6 +231,7 @@ var arrAllQuestions = [
 			questionPicAlt: "The Gamesters of Triseklion"
 		},
 		objQuestion = {
+			id: 21,
 			question: "What is the only cure for the bite of the mugato?",
 			distractor1: "Teer",
 			distractor2: "Mahko root",
@@ -220,6 +242,7 @@ var arrAllQuestions = [
 			questionPicAlt: "The Mugato"
 		},
 		objQuestion = {
+			id: 22,
 			question: "What is the name of Gary Seven's multipurpose tool that is disguised as a pen?",
 			distractor1: "Sonic Screwdriver",
 			distractor2: "Servo",
@@ -230,6 +253,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Gary Seven holding a servo"
 		},
 		objQuestion = {
+			id: 23,
 			question: "Who was the one member of the Platonians who did not have their psychokenetic powers?",
 			distractor1: "Parmen",
 			distractor2: "Eraclitus",
@@ -240,6 +264,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Alexander and Kirk in 'Plato's Stepchildren'"
 		},
 		objQuestion = {
+			id: 24,
 			question: "What actor &mdash; best known for playing the Riddler in the 1960s <em>Batman</em> television series &mdash; played the black-and-white-skinned alien Bele?",
 			distractor1: "Frank Gorshin",
 			distractor2: "John Astin",
@@ -250,6 +275,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Bele"
 		},
 		objQuestion = {
+			id: 25,
 			question: "In <em>The Way to Eden</em>, what slang name for bureaucratic officials did Dr. Sevrin's followers continually call Captain Kirk?",
 			distractor1: "Ralph",
 			distractor2: "Fred",
@@ -260,6 +286,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Adam from 'The Way to Eden'"
 		},
 		objQuestion = {
+			id: 26,
 			question: "Who was the founder of the Klingon Empire?",
 			distractor1: "Kang",
 			distractor2: "Kor",
@@ -270,6 +297,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Kahless the Unforgettable"
 		},
 		objQuestion = {
+			id: 27,
 			question: "What is Captain Kirk's middle name?",
 			distractor1: "Thomas",
 			distractor2: "Romulus",
@@ -280,6 +308,7 @@ var arrAllQuestions = [
 			questionPicAlt: "James T. Kirk"
 		},
 		objQuestion = {
+			id: 28,
 			question: "What planet is Spock's mother from?",
 			distractor1: "Rigel",
 			distractor2: "Earth",
@@ -290,6 +319,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Amanda and Spock"
 		},
 		objQuestion = {
+			id: 29,
 			question: "What is the registry number of the <em>U.S.S. Enterprise</em>?",
 			distractor1: "NCC-1657",
 			distractor2: "NCC-1709",
@@ -300,6 +330,7 @@ var arrAllQuestions = [
 			questionPicAlt: "The U.S.S. Enterprise"
 		},
 		objQuestion = {
+			id: 30,
 			question: "What division do uniforms with blue tunics represent?",
 			distractor1: "Operations",
 			distractor2: "Command",
@@ -310,6 +341,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Starfleet blue uniform"
 		},
 		objQuestion = {
+			id: 31,
 			question: "Actor Mark Lenard portrayed the first Romulan commander encountered by the <em>Enterprise</em> and later played which famous Vulcan?",
 			distractor1: "Surak",
 			distractor2: "Stonn",
@@ -320,6 +352,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Sarek"
 		},
 		objQuestion = {
+			id: 32,
 			question: "Who is the social worker Kirk fell in love with when he and Spock were stranded in the 1940's?",
 			distractor1: "Nancy Hedford",
 			distractor2: "Janice Lester",
@@ -330,6 +363,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Edith Keeler"
 		},
 		objQuestion = {
+			id: 33,
 			question: "What is the name of the bully from Kirk's Starfleet Academy days who like to play practical jokes on him?",
 			distractor1: "Gary Mitchell",
 			distractor2: "Ben Finney",
@@ -340,6 +374,7 @@ var arrAllQuestions = [
 			questionPicAlt: "Kirk's bully"
 		},
 		objQuestion = {
+			id: 34,
 			question: "Which character is a Shakespearean actor who Captain Kirk suspected was the mass murderer  <em>Kodos the Executioner</em>?",
 			distractor1: "Thomas Leighton",
 			distractor2: "Kevin Riley",
